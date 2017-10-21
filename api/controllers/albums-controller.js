@@ -1,4 +1,4 @@
-import {albumModel} from '../models';
+import {albumModel} from '../models/album-model';
 
 
 class AlbumControllerClass {
@@ -9,4 +9,4 @@ class AlbumControllerClass {
     }
 }
 
-export const AlbumController = new AlbumControllerClass();
+export const albumController = new AlbumControllerClass();
