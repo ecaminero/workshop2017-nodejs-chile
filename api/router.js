@@ -14,3 +14,4 @@ export const router = express.Router();
 // API Routes
 router.get('/tracks', trackController.getList);
 router.get('/bands', bandController.getList);
+router.get('/bands/:id', bandController.getBandById);
