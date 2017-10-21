@@ -5,7 +5,7 @@ import colors from 'colors/safe';
 import {
     trackController
 } from './controllers';
-
+import {bandController} from './controllers/bandsContoller';
 
 export const router = express.Router();
 
@@ -14,3 +14,4 @@ export const router = express.Router();
 // API Routes
 router.get('/tracks', trackController.getList);
 router.get('/albums', trackController.getList)
+router.get('/bands', bandController.getList);
