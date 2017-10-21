@@ -21,3 +21,4 @@ router.get('/albums/:id', albumController.getListByBand)
 router.post('/tracks/:_id/comments', trackController.addComment);
 router.get('/bands/:id/albums', bandController.getAllAlbums);
 router.get('/bands/:id/artists', bandController.getAllArtist);
+router.get('/albums/:id/tracks', albumController.getAllTracks);

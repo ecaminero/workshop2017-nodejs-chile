@@ -12,6 +12,10 @@ export class AlbumModelClass {
             })
 
     }
+
+    getAllTracks (id) {
+        return database.find({_id: id, docType: docTypes.ALBUM})
+    }
 }
 
 
