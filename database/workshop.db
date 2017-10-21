@@ -10357,6 +10357,7 @@
 {"disc_number":1,"name":"Paranoid - Live","duration_ms":1,"track_number":9,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"onsknrnXHviU8KfE","createdAt":{"$$date":1479266180271},"updatedAt":{"$$date":1479266180271}}
 {"disc_number":1,"name":"Corduroy","duration_ms":1,"track_number":3,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"onxRNapQ44EKoOEd","createdAt":{"$$date":1508617309198},"updatedAt":{"$$date":1508617309198}}
 {"disc_number":1,"name":"Do It - 2009 Digital Remaster","duration_ms":1,"track_number":14,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"oo1CqomiSYyPdwGy","createdAt":{"$$date":1508617308931},"updatedAt":{"$$date":1508617308931}}
+{"docType":"TRACK","message":"comentario de un track","name":"nuevo comentario","_id":"ooGrqcEXJNpLKRfT","createdAt":{"$$date":1508621365604},"updatedAt":{"$$date":1508621365604}}
 {"disc_number":1,"name":"Communication Breakdown - 10/8/69 Playhouse Theatre","duration_ms":1,"track_number":11,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"oojgWOo7xUt8vT7z","createdAt":{"$$date":1479266180388},"updatedAt":{"$$date":1479266180388}}
 {"disc_number":1,"name":"Rock the House","duration_ms":1,"track_number":10,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"opGVAWZ9n5uWQGxT","createdAt":{"$$date":1508617309008},"updatedAt":{"$$date":1508617309008}}
 {"disc_number":1,"name":"Monuments","duration_ms":1,"track_number":7,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"opsVUCHn4gHsXcpR","createdAt":{"$$date":1508617309370},"updatedAt":{"$$date":1508617309370}}
@@ -12623,4 +12624,3 @@
 {"disc_number":1,"name":"Two Of Us - Remastered","duration_ms":1,"track_number":1,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"zzoBBGwe2q0YtJFT","createdAt":{"$$date":1508617309315},"updatedAt":{"$$date":1508617309315}}
 {"disc_number":1,"name":"Californication","duration_ms":1,"track_number":6,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"zzqu57yBVkMsdId0","createdAt":{"$$date":1479266180605},"updatedAt":{"$$date":1479266180605}}
 {"disc_number":1,"name":"I'm Open","duration_ms":1,"track_number":12,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"zzzGNsykzKPMMBrd","createdAt":{"$$date":1479266180534},"updatedAt":{"$$date":1479266180534}}
-{"docType":"TRACK","message":"comentario de un track","name":"nuevo comentario","_id":"ooGrqcEXJNpLKRfT","createdAt":{"$$date":1508621365604},"updatedAt":{"$$date":1508621365604}}

@@ -8,6 +8,10 @@ export class BandModelClass {
     getById (id) {
         return database.findOne({_id: id, docType: docTypes.BAND})
     }
+
+    getAllArtist (idBand) {
+        return database.find({_id: idBand, docType: docTypes.BAND})
+    }
 }
 
 

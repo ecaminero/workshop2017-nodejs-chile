@@ -17,4 +17,4 @@ router.post('/tracks/:_id/comments', trackController.addComment);
 
 router.get('/bands', bandController.getList);
 router.get('/bands/:_id', bandController.getBandById);
-
+router.get('/bands/:id/artists', bandController.getAllArtist)
