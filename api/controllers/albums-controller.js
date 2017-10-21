@@ -7,6 +7,13 @@ class AlbumControllerClass {
             .then(documents => res.json(documents))
             .catch(error => res.json({error: error.message}));
     }
+
+    getListByBand (req, res) {
+        return albumModel.getListByBand(req.params.id)
+            .then(documents => res.json(documents))
+            .catch(error => res.json({error: error.message}));
+    }
 }
+
 
 export const albumController = new AlbumControllerClass();

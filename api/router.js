@@ -15,3 +15,5 @@ export const router = express.Router();
 router.get('/tracks', trackController.getList);
 router.get('/albums', albumController.getList)
 router.get('/bands', bandController.getList);
+router.get('/bands/:id', bandController.getBandById);
+router.get('/albums/:id', albumController.getListByBand)

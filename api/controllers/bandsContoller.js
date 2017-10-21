@@ -7,6 +7,13 @@ class BandControllerClass {
         .then(documents => res.json(documents))
         .catch(error => res.json({error: error.message}));
     }
+
+    getBandById (req, res) {
+        console.log(req.params, 'parametros');
+        return bandModel.getById(req.id)
+        .then(response => res.json(response))
+        .catch(error => res.json({error: error.message}));
+    }
 }
 
 export const bandController = new BandControllerClass();

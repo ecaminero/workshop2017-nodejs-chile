@@ -5,6 +5,9 @@ export class BandModelClass {
     getList () {
         return database.find({docType: docTypes.BAND})
     }
+    getById () {
+        return database.findOne({docType: docTypes.BAND})
+    }
 }
 
 
