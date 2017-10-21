@@ -9,7 +9,7 @@ class AlbumControllerClass {
     }
 
     getListByBand (req, res) {
-        return albumModel.getListByBand(req.params.id)
+        return albumModel.getListByBand(req.params._id)
             .then(documents => res.json(documents))
             .catch(error => res.json({error: error.message}));
     }

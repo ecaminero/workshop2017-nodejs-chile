@@ -13,7 +13,10 @@ export const router = express.Router();
 
 // API Routes
 router.get('/tracks', trackController.getList);
+
 router.get('/albums', albumController.getList)
 router.get('/bands', bandController.getList);
 router.get('/bands/:id', bandController.getBandById);
 router.get('/albums/:id', albumController.getListByBand)
+router.post('/tracks/:_id/comments', trackController.addComment);
+router.get('/bands/:_id/albums', bandController.getBandById);
