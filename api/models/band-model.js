@@ -12,6 +12,9 @@ export class BandModelClass {
     getAllArtist (idBand) {
         return database.find({_id: idBand, docType: docTypes.BAND})
     }
+    getAllAlbums (idBand) {
+        return database.find({_id: idBand, docType: docTypes.BAND})
+    }
 }
 
 

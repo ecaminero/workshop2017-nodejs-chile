@@ -28,6 +28,20 @@ class BandControllerClass {
         }).then((artists) => {res.json(artists);})
         .catch(error => res.json({error: error.message}))
     }
+
+    getAllAlbums (req, res) {
+        return bandModel.getAllAlbums(req.params.id)
+        .then((response) => {
+            let promise = [];
+            response.forEach((band) => {
+                band.albums.forEach((album) => {
+                    promise.push(database.find({ docType: docTypes.ALBUM, _id: album}))
+                });
+            })
+            return Promise.all(promise);
+        }).then((albums) => {res.json(albums);})
+        .catch(error => res.json({error: error.message}))
+    }
 }
 
 export const bandController = new BandControllerClass();
