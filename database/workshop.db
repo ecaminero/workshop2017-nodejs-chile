@@ -12623,3 +12623,4 @@
 {"disc_number":1,"name":"Two Of Us - Remastered","duration_ms":1,"track_number":1,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"zzoBBGwe2q0YtJFT","createdAt":{"$$date":1508617309315},"updatedAt":{"$$date":1508617309315}}
 {"disc_number":1,"name":"Californication","duration_ms":1,"track_number":6,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"zzqu57yBVkMsdId0","createdAt":{"$$date":1479266180605},"updatedAt":{"$$date":1479266180605}}
 {"disc_number":1,"name":"I'm Open","duration_ms":1,"track_number":12,"docType":"TRACK","comments":[],"commentsCount":0,"_id":"zzzGNsykzKPMMBrd","createdAt":{"$$date":1479266180534},"updatedAt":{"$$date":1479266180534}}
+{"docType":"TRACK","message":"comentario de un track","name":"nuevo comentario","_id":"ooGrqcEXJNpLKRfT","createdAt":{"$$date":1508621365604},"updatedAt":{"$$date":1508621365604}}

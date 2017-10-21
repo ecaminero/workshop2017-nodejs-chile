@@ -9,8 +9,8 @@ class BandControllerClass {
     }
 
     getBandById (req, res) {
-        console.log(req.params, 'parametros');
-        return bandModel.getById(req.id)
+        
+        return bandModel.getById(req.params._id)
         .then(response => res.json(response))
         .catch(error => res.json({error: error.message}));
     }

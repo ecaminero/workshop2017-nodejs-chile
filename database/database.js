@@ -41,6 +41,7 @@ export class Database extends Datastore {
     }
 
     findOne (query, callback) {
+        console.log(...arguments);
         return this.promisifyParentMethod('findOne', [...arguments]);
     }
 
