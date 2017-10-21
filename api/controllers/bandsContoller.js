@@ -9,7 +9,7 @@ class BandControllerClass {
     }
 
     getBandById (req, res) {
-        
+
         return bandModel.getById(req.params._id)
         .then(response => res.json(response))
         .catch(error => res.json({error: error.message}));
@@ -25,9 +25,7 @@ class BandControllerClass {
                 });
             })
             return Promise.all(promise);
-        }).then((artists) => {
-            res.json(artists);
-        })
+        }).then((artists) => {res.json(artists);})
         .catch(error => res.json({error: error.message}))
     }
 }
